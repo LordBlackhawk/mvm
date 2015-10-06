@@ -45,4 +45,14 @@ parser new ParserDefinitionNode = "parser"_ ("new"_)?:newClass ClassIdentifierNo
 ```
 Explanation:
 * `BlockStmntNode`, `ClassIdentifierNode`, and so one are nodes defined by the parser for the basic MVM language.
-* ...
+* `parser new (...);` is an abbreviation, which defines the resulting class. See the following example:
+```
+// Short form:
+parser new ParserExprTerminalNode extends ParserExprNode = QuotedString:text ("_"_)?:expectWhitespace;
+// Long form:
+class ParserExprTerminalNode extends ParserExprNode {
+  var text : string;
+  var expectWhitespace : bool;
+}
+parser ParserExprTerminalNode = QuotedString:text ("_"_)?:expectWhitespace;
+```
