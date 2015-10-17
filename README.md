@@ -10,3 +10,10 @@ MVM is designed to be ...
 * ... [optimizable](doc/optimizer-concept.md).
 * ... [interoperable](doc/interoperablity.md) (to C/C++ and so on).
 * ... [easy to read and write](doc/language.md).
+
+How to [get started](doc/getting-started.md).
+
+## Important
+The purpose of this site is to find people interesed in implementing parts of the compiler, supplying new ideas, or just discussing about presented ideas.
+
+If you are interesed, please send me an e-mail to ...@gmail.com
