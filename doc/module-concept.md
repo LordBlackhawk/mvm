@@ -22,7 +22,7 @@ The compiler ...
 * ... calling reflection code to add symbols definitions to search tree.
 *Important:* All classes, methods, and variables of the module are usage at compile time!
 
-## Linking a MVM Program against a MVM Module
+## Linking a MVM Program against MVM Modules
 During linking of a MVM program the following steps are done by the compiler (MVM does not distingish between linker and compiler):
 The compiler ...
 * ... collects all needed modules by the following steps:
