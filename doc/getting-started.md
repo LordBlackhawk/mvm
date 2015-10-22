@@ -7,6 +7,9 @@ The C++-variant of the MVM compiler ...
 * ... does not support [loading modules](module-concept.md), but generates reflections for the generated code.
 * ... does not support execute command.
 * ... has only one purpoose: Compiling the second MVM compiler.
+* ... does not support operator and method overloading.
+* ... does not support other integer types than int.
+* ... does not support any floating point types.
 
 ## Second MVM Compiler
 The second MVM compiler should be written in MVM itself. It consists of the following components:
